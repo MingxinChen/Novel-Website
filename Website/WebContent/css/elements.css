@@ -1,0 +1,336 @@
+/*---------------------------------------------------------elements---------------------------------------------------------*/
+html, body {
+	width: 100%;
+	height: 100%;
+	font: 14px;
+	font-size: 22px;
+	color: #5A5A5A;
+}
+div.bg {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+div.bg img {
+	width: 100%;
+	height: 100%;
+}
+div.button_red {
+	color: white;
+	width: 200px;
+	height: 80px;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 80px;
+	display: inline-block;
+	font-size: 1.3em;
+}
+/*---------------------------------------------------------login---------------------------------------------------------*/
+div.logo {
+	position: relative;
+	left: 10%;
+	top: 0px;
+	z-index: 1;
+	width: 30%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+}
+div.logo img {
+	position: relative;
+	top: 20%;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+div.left_block {
+	position: relative;
+	left: 10%;
+	top: 0px;
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+	/*background-color: #FFFFFF;*/
+	z-index: 1;
+}
+div.log_reg_block {
+	display: inline-block;
+	position: absolute;
+}
+div.button_log {
+	position: relative;
+	top: 25%;
+	left: 200px;
+}
+div.button_reg {
+	position: relative;
+	top: 35%;
+}
+div.button_log a:hover, div.button_log a:link, div.button_log a:visited, 
+div.button_reg a:hover, div.button_reg a:link, div.button_reg a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+div.information {
+	border-left-width: 0.5px;
+	border-left-style: solid;
+	border-left-color: rgba(0,0,0,0.5);
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 120px;
+	position: absolute;
+	height: 200px;
+	width: 400px;
+	top: 200px;
+	font-size: 1em;
+}
+div.information table tr {
+	height: 40px;
+	text-align: center;
+	padding: 10px;
+}
+div.information table tr:nth-last-child(2) {
+	height: 100px;
+}
+div.information table tr:nth-last-child(1) {
+	text-align: right;
+}
+div.information input.input-block {
+	width: 250px;
+	height: 20px;
+	background: rgba(20,20,20,0);
+	
+	
+}
+div.information input.input-button{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+}
+div.web-message {
+	position: absolute;
+	top: 600px;
+	left: 700px;
+	padding-bottom: 100px;
+}
+/*---------------------------------------------------------mainPage---------------------------------------------------------*/
+/*all---------------------------------------------------------*/
+div.main-left {
+	width: 250px;
+	height: 100%;
+	overflow:hidden;
+	position: fixed;
+	z-index: 2;
+	left: -105px;
+	display: inline-block;
+}
+div.main-left img {
+	width: 225px;
+	height: 225x;
+}
+div.function-hover {
+	position: absolute;
+	top: 0px;
+}
+div.function-hover img{
+	width: 270px;
+	height: 270px;
+	position: relative;
+	top: -20px;
+	left: -20px;
+}
+div.main-right {
+	width: 1700px;
+	position: relative;
+	z-index: 3;
+	left: 140px;
+}
+/*article-block---------------------------------------------------------*/
+div.article-block {
+	width: 1660px;
+	margin-top: 20px;
+	border-bottom-width: 0.3px;
+	border-bottom-color: rgba(20,20,20,0.5);
+	border-bottom-style: solid;
+}
+div.article-block table {
+	width: inherit;
+}
+div.article-block table tr:nth-child(1) td{
+	font-size: 1em;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+div.article-block table tr:nth-child(n+2) td{
+	font-size: 0.8em;
+	padding-bottom: 5px;
+}
+div.article-block table tr:last-child td{
+	text-align: right;
+	vertical-align: middle;
+	padding-bottom: 5px;
+}
+div.article-block table tr:last-child td input {
+	width: 80px;
+	height: 50px;
+	margin-left: 10px;
+	position: relative;
+	top: 10px;
+}
+div.article-block table tr:last-child td input.score-point {
+	width: 25px;
+	height: 25px;
+	margin-bottom: 15px;
+}
+div.article-block table tr:last-child td img {
+	height: 30px;
+}
+div.article-block a:visited,  div.article-block a:link {
+	color: #000000;
+	text-decoration: none;
+}
+div.article-block a:hover {
+	color: #C00000;
+}
+div.article-block table span.span1 {
+	font-size: 0.8em;
+	color: rgba(0,0,0,0.5);
+}
+div.article-block table tr:last-child td input.delete-button {
+	width: 130px;
+	height: 50px;
+}
+/*page1---------------------------------------------------------*/
+div.page1 {
+	position: absolute;
+}
+/*page2---------------------------------------------------------*/
+div.page2{
+	display: none;
+	position: absolute;
+}
+div.label-block {
+	width: 1660px;
+}
+div.label-block img{
+	width: 200px;
+}
+div.label-block form {
+	display:inline;
+	position: absolute;
+	right: 150px;
+	top: 0px;
+}
+div.label-block input:nth-child(1) {
+	font-size: 1em;
+	height: 30px;
+	margin-left: 20px;
+	width: 300px;
+	background: rgba(20,20,20,0);
+	position: relative;
+	top: 40px;
+}
+div.label-block form img.page2-search {
+	width: 80px;
+	position: relative;
+	top: 55px;
+}
+/*page3---------------------------------------------------------*/
+div.page3 {
+	display: none;
+	position: absolute;
+	width: 100%;
+}
+div.page3-type1, div.page3-type2, div.page3-type3, div.page3-type4, div.page3-type5{
+	position: absolute;
+	display: none;
+	width: 100%;
+}
+div.type-hover {
+	position: absolute;
+	top: 0px;
+}
+div.type-hover img{
+	width: 130px;
+	position: relative;
+	top: 30px;
+	left: 30px;
+}
+div.page3-type4 form input:nth-child(1), div.page3-type5 form input:nth-child(1) {
+	width: 250px;
+	height: 20px;
+	background: rgba(20,20,20,0);
+	margin-left: 50px;
+	margin-right: 20px;
+	position: relative;
+	top: -20px;
+}
+div.page3-type4 form input:nth-child(2), div.page3-type5 form input:nth-child(2) {
+	width: 80px;
+}
+div.key-word {
+	display: inline-block;
+	font-size: 1em;
+	color: #5A5A5A;
+	padding: 10px;
+	
+}
+/*page4---------------------------------------------------------*/
+div.page4{
+	display: none;
+	position: absolute;
+}
+div.page4>div.information {
+	border-width: 0px;
+	left: 200px;
+}
+div.confirm{
+	position: absolute;
+	top: 700px;
+	left: 500px;
+}
+div.confirm form input:nth-child(2){
+	position: relative;
+	top: -55px;
+	left: 200px;
+}
+div.confirm input{
+	width: 100px;
+}
+div.header {
+	position: absolute;
+	top: 100px;
+	left: 1000px;
+}
+div.header img:nth-child(1) {
+	position: absolute;
+	top: 75px;
+	left: 75px;
+	width: 250px;
+	height: 250px;
+	z-index: 5;
+}
+div.header img:nth-child(2){
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 400px;
+	height: 400px;
+	z-index: 4;
+}
+div.header>input.input-button {
+	position: absolute;
+	top: 420px;
+	left: 150px;
+	width: 100px;
+}
+
+
+
+
+
+
